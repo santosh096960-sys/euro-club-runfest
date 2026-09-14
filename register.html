@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Register | EURO CLUB</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <div class="logo">
+            EURO <span>CLUB</span>
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+
+    </header>
+
+
+    <main class="registration-page">
+
+        <div class="registration-header">
+
+            <p class="section-label">
+                EURO CLUB • 2026
+            </p>
+
+            <h1>
+                JOIN THE<br>
+                <span>EVENT.</span>
+            </h1>
+
+            <p>
+                3 KM Marathon + Games + Gathering
+            </p>
+
+            <div class="registration-event-info">
+
+                <strong>20 SEPTEMBER 2026</strong>
+
+                <span>5:30 AM • YMCA, RK BEACH, VIZAG</span>
+
+            </div>
+
+        </div>
+
+
+        <form class="registration-form">
+
+            <!-- NAME -->
+
+            <div class="form-group">
+
+                <label for="name">
+                    FULL NAME *
+                </label>
+
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your full name"
+                    required>
+
+            </div>
+
+
+            <!-- AGE + GENDER -->
+
+            <div class="form-row">
+
+                <div class="form-group">
+
+                    <label for="age">
+                        AGE *
+                    </label>
+
+                    <input
+                        type="number"
+                        id="age"
+                        name="age"
+                        placeholder="Age"
+                        min="1"
+                        max="100"
+                        required>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="gender">
+                        GENDER *
+                    </label>
+
+                    <select
+                        id="gender"
+                        name="gender"
+                        required>
+
+                        <option value="">
+                            Select
+                        </option>
+
+                        <option value="Male">
+                            Male
+                        </option>
+
+                        <option value="Female">
+                            Female
+                        </option>
+
+                        <option value="Other">
+                            Other
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+
+            <!-- PHONE -->
+
+            <div class="form-group">
+
+                <label for="phone">
+                    PHONE NUMBER *
+                </label>
+
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Enter your phone number"
+                    required>
+
+            </div>
+
+
+            <!-- GMAIL -->
+
+            <div class="form-group">
+
+                <label for="email">
+                    GMAIL ID *
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="example@gmail.com"
+                    required>
+
+            </div>
+
+
+            <!-- SUBMIT -->
+
+            <button
+                type="submit"
+                class="primary-btn submit-btn">
+
+                REGISTER NOW →
+
+            </button>
+
+
+            <p class="form-note">
+                Please make sure all the information you enter is correct.
+            </p>
+
+        </form>
+
+    </main>
+
+
+    <footer>
+
+        <div class="logo">
+            EURO <span>CLUB</span>
+        </div>
+
+        <p>
+            Run. Play. Connect.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
